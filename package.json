@@ -15,8 +15,8 @@
     "watch:js-dev": "watch 'npm run build:js-dev' ./src/js/",
     "watch": "npm run watch:css & npm run watch:js",
     "watch-dev": "npm run watch:css & npm run watch:js-dev",
-    "server": "browser-sync start -s ./ --files 'css/*.css, js/*.js, **/*.php, **/*.html' -w",
-    "watch_s": "npm run watch & npm run server"
+    "bs": "browser-sync start -s ./ --files 'css/*.css, js/*.js, **/*.php, **/*.html' -w",
+    "watch_s": "npm run watch & npm run bs"
   },
   "author": "yosiakatsuki",
   "license": "ISC",
